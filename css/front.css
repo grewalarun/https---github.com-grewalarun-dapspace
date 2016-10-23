@@ -1,0 +1,191 @@
+
+body{margin: 0; padding: 0; font-family: 'Titillium Web', sans-serif; transition:0.2s all;}
+
+
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    text-rendering: optimizelegibility;
+}
+
+nav {
+    background-color: #2B2B2C;
+}
+
+/*
+.fixed {
+    background-color: #fff;
+    height: 71px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+	animation: 0.4s ease 0s normal none 1 running bounce1;
+}*/
+@keyframes bounce1 {
+0% {
+    top: 0;
+}
+25% {
+    top: 15px;
+}
+50% {
+    top: 8px;
+}
+100% {
+    top: 0;
+}
+}
+	
+.main_slide {
+    position: relative;
+}
+
+.splash-screen-slider ul li {
+    background-position: center center !important;
+    background-size: cover !important;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+.splash-screen-slider ul li {
+    background-position: center center !important;
+    background-size: cover !important;
+}
+
+
+.splash-screen .slide-content {
+    left: 5%;
+    margin: 0 auto;
+    max-width: 600px;
+    position: absolute;
+    right: 5%;
+    text-align: center;
+    top: 30%;
+    width: 90%;
+    z-index: 55;
+}
+
+.searchAdvisor {
+    position: relative;
+}
+
+.searchAdvisor input {
+    background-color: #fff;
+    border: medium none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 10px;
+    position: relative;
+}
+
+
+.searchAdvisor .advsearchBtn {
+    color: #fff;
+    height: 3rem;
+    line-height: 42px;
+    padding: 0 10px;
+    position: absolute;
+    right: 0;
+    border-radius: 0;
+}
+
+
+.read-more {
+    bottom: 10px;
+    color: #414042;
+    font-size: 1.3em;
+    font-weight: 700;
+    position: absolute;
+    right: 10%;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 2;
+    display: block;
+    cursor: pointer;
+}
+
+.read-more i {
+    animation: 2s ease 0s normal none infinite running chevron-bounce;
+    font-size: 2em;
+    position: relative;
+}
+
+@keyframes chevron-bounce {
+0% {
+    bottom: 0;
+}
+80% {
+    bottom: 0;
+    color: #414042;
+}
+90% {
+    bottom: -5px;
+    color: #999;
+}
+100% {
+    bottom: 0;
+    color: #414042;
+}
+}
+
+
+.splash-screen .chevrons {
+    background-color: rgba(0, 0, 0, 0.7);
+    bottom: 0;
+    height: 1229px;
+    opacity: 0.8;
+    position: absolute;
+    right: 0;
+    width: 100%;
+}
+
+/*for page inner*/
+.sld {position:relative; padding-top:70px;}
+ .heading2{   font-family: 'open_sansbold'; font-size:40px;}
+
+
+
+.box{height: 200px; width: 200px; display: inline-block; background-color: pink; margin: 10px;}
+
+
+
+
+/*new */
+
+.menubar nav {
+    padding: 0 10px;
+}
+
+nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+    height: 80px;
+    line-height: 80px;
+}
+
+nav a.btn.signup{background-color: transparent; border:1px solid #fff; } /*#3949AB;*/
+
+.brand-logo {
+    max-width: 150px;
+}
+
+a.brand-logo img {
+    vertical-align: text-top;
+    width: 100%;
+}
+
+.slide-content h3 {
+    color: #ffd991;
+    font-size: 50px;
+    font-weight: 600;
+}
+
