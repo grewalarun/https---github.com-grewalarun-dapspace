@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>DapSpace</title>
+<!-- Compiled and minified CSS -->
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400,400i,600,700,900" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+<link href="css/front.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="menubar navbar-fixed">
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo"><img src="images/logo.png"></a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">How it works</a></li>
+        <li><a href="#">Find an advisor</a></li>
+        <li><a href="#">About DapSpace</a></li>
+        <li><a href="#" class="btn indigo">Login</a></li>
+        <li><a href="#" class="btn signup">Signup</a></li>
+
+      </ul>
+      <ul class="side-nav green accent-3" id="mobile-demo">
+      <li><a href="#">How it works</a></li>
+        <li><a href="#">Find an advisor</a></li>
+        <li><a href="#">About DapSpace</a></li>
+        <li><a href="#" class="btn indigo">Login</a></li>
+        <li><a href="#" class="btn signup">Signup</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+ <div class="main_slide" style="overflow:hidden">
+
+	<div class="splash-screen">
+		<div class="splash-screen-slider">
+			<ul>
+				<li style="background:url(images/banner-1a.jpg);"></li>
+				<li style="background:url(images/banner-2a.jpg);"></li>
+        <li style="background:url(images/banner-3a.jpg);"></li>
+
+			</ul>			
+			<div class="slide-content">
+				<h3><span class="green-text accent-3">Direct Advice</span> from <span class="indigo-text darken-1">Professionals</h3>
+				<div class="searchAdvisor"><input type="text" name="advisor" value="advisor"><input class="waves-effect waves-light indigo darken-1 advsearchBtn" type="submit" name="submit" value="SEARCH"></div>	
+			</div>
+		</div>
+
+<div class="read-more"><a href="#home"><i class="fa fa-chevron-down"></i>Next.>.</a></div>
+<div class="chevrons"></div>
+</div>
+</div>
+
+<a href="#top">go to top</a>
+<!-- JS Libs
+<script src="js/jquery-3.1.0.min.js"></script> -->
+ <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="http://materializecss.com/bin/materialize.js"></script>
+<script src="js/page.js"></script>
+<script src="js/scrollreveal.min.js"></script>
+<script src="js/smooth-scroll.js"></script>
+<script>
+window.sr = ScrollReveal({ reset: true });
+sr.reveal('.sld>*', { duration: 600 });
+smoothScroll.init();
+ $('.parallax').parallax();
+</script>
+<script type="text/javascript">
+$('document').ready(function(){
+
+    $(".button-collapse").sideNav();
+});
+</script>>
+
+
+</body>
+</html>
